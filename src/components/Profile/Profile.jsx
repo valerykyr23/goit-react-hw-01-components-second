@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 export const Profile = (props) => {
 
@@ -11,7 +11,7 @@ export const Profile = (props) => {
       <div className="description">
         <img
           src={avatar}
-          width ="100"
+          width="100"
           alt="User avatar"
           className="avatar"
         />
@@ -35,4 +35,15 @@ export const Profile = (props) => {
         </li>
       </ul>
     </div>)
-}
+};
+
+
+Profile.propTypes = {
+  avatar: PropTypes.string,
+  username: PropTypes.string,
+  location: PropTypes.string,
+  tag: PropTypes.string,
+  stats: PropTypes.objectOf(PropTypes.number) 
+};
+
+
