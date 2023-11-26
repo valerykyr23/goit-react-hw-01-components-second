@@ -1,4 +1,4 @@
-.profileConatiner {
+.profile {
   width: 1000px;
   background-color: #ffffff;
   display: flex;
@@ -7,49 +7,49 @@
   padding-top: 15px;
   width: 370px;
   box-shadow: 0 0 10px #c6cccced;
-  border-radius: 10px
-};
+  border-radius: 10px;
+  margin-left: 20px
+}
 
-.profileDescription {
+.description {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: inherit;
-  border-bottom: #7e6f7498 solid 2px
-};
+  border-bottom: #7e6f7498 solid 2px;
+}
 
-.profileAvatar {
+.avatar {
   width: 300px;
   box-shadow: 0 0 3px 0px #0000004d;
   border-radius: 50%;
   background-color: #e7eeeeed;
   padding: 20px 10px 0px 10px;
-  margin-bottom: 15px
-};
+  margin-bottom: 15px;
+}
 
-.profileName {
+.name {
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 15px;
-  color: #524a4d
-};
+  color: #524a4d;
+}
 
-.profileTag{
+.tag {
   font-weight: 500;
   font-size: 20px;
   color: #524a4d;
-  margin-bottom: 15px
-    
-};
+  margin-bottom: 15px;
+}
 
-.profileLocation {font-weight: 700;
+.location {
   font-weight: 700;
   font-size: 20px;
   color: #524a4d;
-  margin-bottom: 15px
-};
+  margin-bottom: 15px;
+}
 
-.userStats {
+.stats {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -58,10 +58,10 @@
   width: inherit;
   background-color: #7e6f7449;
   border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px
+  border-bottom-left-radius: 10px;
 }
 
-.userStatsItem {
+.stats>li {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,19 +70,18 @@
   padding: 7px 0;
 }
 
-.userStatsLabel {
-    
-margin-right: 3px;
-font-weight: 700;
-font-size: 20px;
-color: #524a4d8b;
-margin-bottom: 5px
-};
+.label {
+  margin-right: 3px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #524a4d8b;
+  margin-bottom: 5px;
+}
 
-.userStatsQuantity{
-    
+.quantity {
   font-weight: 800;
   font-size: 20px;
-  color: #524a4d
-        
+  color: #524a4d;
 }
+
+
